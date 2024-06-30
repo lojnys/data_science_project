@@ -1,12 +1,12 @@
 # Data Science Project
 
 ## Table of Contents
-1. Description
+1. [Description](#heading-id)
 2. Projects
     1. Travel Insurance Classification
     2. Titanic Survival Prediction
 
-## 1. Description
+## 1. Description {#heading-id}
 This repository consists of two projects: Travel Insurance Classification Project and Titanic Survival Prediction.
 
 ## 2. Projects
