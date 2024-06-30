@@ -6,7 +6,7 @@
     1. Travel Insurance Classification
     2. Titanic Survival Prediction
 
-## 1. [Description][heading-id]
+## 1. [Description](heading-id)
 This repository consists of two projects: Travel Insurance Classification Project and Titanic Survival Prediction.
 
 ## 2. Projects
