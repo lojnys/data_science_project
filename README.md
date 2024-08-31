@@ -55,3 +55,40 @@ Datasets contain:
 |`fare`|passenger fare|
 |`cabin`|cabin number|
 |`embarked`|port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)|
+
+### 2.3 Car Price Prediction
+ *Source: https://www.kaggle.com/datasets/hellbuoy/car-price-prediction/data?select=CarPrice_Assignment.csv*
+
+In this project I will be conducting statistical analysis and creating multiple linear regression (MLR) to predict the car price. Additionally, I will be evaluating the linearity between variables with visualizations such as regression plot and residuals. If needed, *polynomial transformation* will be applied to variables that follow higher order relationship with the target variable. Furthermore, I expect to use *Ridge regression* to predict the car price more accurately, by using tuning the hyperparameter with *GridSearchCV*. 
+*Mean Squared Error (MSE)* and *$R^{2}$* will be used to evaluate and will be yardsticks for model refinement.
+
+Dataset contain:
+
+|Variable|Definition|
+|------|------|
+|`Car-ID`|Car ID|
+|`Symboling`||
+|`carCompany`|Name of the automaker|
+|`fueltype`|Fuel type|
+|`aspiration`|Aspiration|
+|`doornumber`|Number of doors|
+|`carbody`|Type of the vehicle|
+|`drivewheel`|Front or rear wheel drive|
+|`enginelocation`|Location of the engine|
+|`wheelbase`|Wheelbase|
+|`carlength`|Length of the vehicle|
+|`carwidth`|Width of the vehicle|
+|`carheight`|Height of the vehicle|
+|`curbweight`|Curbweight|
+|`enginetype`|Type of engine being used|
+|`cylindernumber`|Number of cylinders|
+|`enginesize`|Engine size|
+|`fuelsystem`|Fuelsystem|
+|`boreratio`|Bore ratio|
+|`stroke`|Stroke|
+|`compressionratio`|Compression ratio|
+|`horsepower`|Horsepower|
+|`peakrpm`|Peak RPM|
+|`citympg`|City-MPG|
+|`highwaympg`|Highway-MPG|
+|`price`|Price of the vehicle (target variable)|
